@@ -1,0 +1,10 @@
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\bin\Debug\evaluacionAtleta.exe.config
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\bin\Debug\evaluacionAtleta.exe
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\bin\Debug\evaluacionAtleta.pdb
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.csprojAssemblyReference.cache
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.Form1.resources
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.Properties.Resources.resources
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.csproj.GenerateResource.cache
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.csproj.CoreCompileInputs.cache
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.exe
+D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.pdb
