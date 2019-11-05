@@ -34,9 +34,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.cboSex = new System.Windows.Forms.ComboBox();
             this.dtpEdad = new System.Windows.Forms.DateTimePicker();
             this.btnEva = new System.Windows.Forms.Button();
+            this.rbM = new System.Windows.Forms.RadioButton();
+            this.rbF = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.nudPes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudEst)).BeginInit();
             this.SuspendLayout();
@@ -103,18 +104,6 @@
             this.label4.TabIndex = 1;
             this.label4.Text = "Sexo";
             // 
-            // cboSex
-            // 
-            this.cboSex.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboSex.FormattingEnabled = true;
-            this.cboSex.Items.AddRange(new object[] {
-            "M",
-            "F"});
-            this.cboSex.Location = new System.Drawing.Point(127, 19);
-            this.cboSex.Name = "cboSex";
-            this.cboSex.Size = new System.Drawing.Size(121, 21);
-            this.cboSex.TabIndex = 3;
-            // 
             // dtpEdad
             // 
             this.dtpEdad.Format = System.Windows.Forms.DateTimePickerFormat.Short;
@@ -122,6 +111,7 @@
             this.dtpEdad.Name = "dtpEdad";
             this.dtpEdad.Size = new System.Drawing.Size(120, 20);
             this.dtpEdad.TabIndex = 4;
+            this.dtpEdad.ValueChanged += new System.EventHandler(this.dtpEdad_ValueChanged);
             // 
             // btnEva
             // 
@@ -133,14 +123,37 @@
             this.btnEva.UseVisualStyleBackColor = true;
             this.btnEva.Click += new System.EventHandler(this.btnEva_Click);
             // 
+            // rbM
+            // 
+            this.rbM.AutoSize = true;
+            this.rbM.Location = new System.Drawing.Point(128, 22);
+            this.rbM.Name = "rbM";
+            this.rbM.Size = new System.Drawing.Size(34, 17);
+            this.rbM.TabIndex = 6;
+            this.rbM.Text = "M";
+            this.rbM.UseVisualStyleBackColor = true;
+            this.rbM.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // rbF
+            // 
+            this.rbF.AutoSize = true;
+            this.rbF.Location = new System.Drawing.Point(179, 22);
+            this.rbF.Name = "rbF";
+            this.rbF.Size = new System.Drawing.Size(31, 17);
+            this.rbF.TabIndex = 6;
+            this.rbF.Text = "F";
+            this.rbF.UseVisualStyleBackColor = true;
+            this.rbF.CheckedChanged += new System.EventHandler(this.rbF_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(313, 223);
+            this.Controls.Add(this.rbF);
+            this.Controls.Add(this.rbM);
             this.Controls.Add(this.btnEva);
             this.Controls.Add(this.dtpEdad);
-            this.Controls.Add(this.cboSex);
             this.Controls.Add(this.nudEst);
             this.Controls.Add(this.nudPes);
             this.Controls.Add(this.label3);
@@ -165,9 +178,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox cboSex;
         private System.Windows.Forms.DateTimePicker dtpEdad;
         private System.Windows.Forms.Button btnEva;
+        private System.Windows.Forms.RadioButton rbM;
+        private System.Windows.Forms.RadioButton rbF;
     }
 }
 

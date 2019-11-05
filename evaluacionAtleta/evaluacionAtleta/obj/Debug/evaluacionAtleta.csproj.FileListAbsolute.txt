@@ -8,3 +8,12 @@ D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.csproj.G
 D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.csproj.CoreCompileInputs.cache
 D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.exe
 D:\Parcial\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.pdb
+D:\Projects\net_evaluacionatleta\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.csprojAssemblyReference.cache
+D:\Projects\net_evaluacionatleta\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.Form1.resources
+D:\Projects\net_evaluacionatleta\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.Properties.Resources.resources
+D:\Projects\net_evaluacionatleta\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.csproj.GenerateResource.cache
+D:\Projects\net_evaluacionatleta\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.exe
+D:\Projects\net_evaluacionatleta\evaluacionAtleta\evaluacionAtleta\obj\Debug\evaluacionAtleta.pdb
+D:\Projects\net_evaluacionatleta\evaluacionAtleta\evaluacionAtleta\bin\Debug\evaluacionAtleta.exe.config
+D:\Projects\net_evaluacionatleta\evaluacionAtleta\evaluacionAtleta\bin\Debug\evaluacionAtleta.exe
+D:\Projects\net_evaluacionatleta\evaluacionAtleta\evaluacionAtleta\bin\Debug\evaluacionAtleta.pdb

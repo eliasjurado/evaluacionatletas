@@ -28,11 +28,11 @@ namespace evaluacionAtleta
             int differenceInDays = ts.Days;
             double edad = differenceInDays / 365;
 
-            if (cboSex.SelectedIndex < 0)
+            if (rbM.Checked==false && rbF.Checked==false)
             {  
                 MessageBox.Show("Debe seleccionar un sexo");
             }
-            else if (cboSex.SelectedIndex==0) //si es hombre, sea mayor de edad, mida mas de 1.70 y pese menos de 70 kg. 
+            else if (rbM.Checked==true) //si es hombre, sea mayor de edad, mida mas de 1.70 y pese menos de 70 kg. 
             {
                 if (edad < 18)
                 {
@@ -53,7 +53,7 @@ namespace evaluacionAtleta
 
 
             }
-            else if (cboSex.SelectedIndex == 1) //Si es mujer que tenga más de 16 años, mida como mínimo 1.70 y pese como máximo 60 kg.
+            else if (rbF.Checked == true) //Si es mujer que tenga más de 16 años, mida como mínimo 1.70 y pese como máximo 60 kg.
             {
                 if (edad < 16)
                 {
@@ -80,6 +80,24 @@ namespace evaluacionAtleta
             nudPes.DecimalPlaces = 2;
             nudEst.Increment = 0.10M;
             nudPes.Increment = 0.10M;
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbM.Checked) rbF.Checked=false;
+        }
+
+        private void rbF_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rbF.Checked) rbM.Checked = false;
+        }
+
+        private void dtpEdad_ValueChanged(object sender, EventArgs e)
+        {
+            if (dtpEdad.Value > DateTime.Now)
+            {
+                dtpEdad.Value = DateTime.Now;
+            }
         }
     }
 }
